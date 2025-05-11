@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
       title: "Cyber Security Portfolio Website",
       description: "A personal portfolio website designed to showcase my skills, projects, and experience in cyber security and IT. Includes a downloadable CV, interactive UI, and real-time visitor analytics.",
       imageUrl: "/images/portfolio.png",
-      technologies: ["React", "TypeScript", "TailwindCSS", "Node.js"],
+      technologies: ["React","Vite", "Shadcn-ui", "TypeScript", "TailwindCSS", "Node.js"],
       linkUrl: "https://jhonel-portfolio.vercel.app/"
     },
     {
