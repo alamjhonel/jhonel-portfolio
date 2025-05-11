@@ -10,21 +10,21 @@ const Projects: React.FC = () => {
     {
       title: "Cyber Security Portfolio Website",
       description: "A personal portfolio website designed to showcase my skills, projects, and experience in cyber security and IT. Includes a downloadable CV, interactive UI, and real-time visitor analytics.",
-      imageUrl: "public/images/portfolio.png",
+      imageUrl: "/images/portfolio.png",
       technologies: ["React", "TypeScript", "TailwindCSS", "Node.js"],
       linkUrl: "https://jhonel-portfolio.vercel.app/"
     },
     {
       title: "Code Assessment using Rubric-based Fuzzy Logic",
       description: "A web application that automates code assessment for students using a rubric-based fuzzy logic system, providing fair and consistent grading based on multiple criteria.",
-      imageUrl: "public/images/codeassess.png",
+      imageUrl: "/images/codeassess.png",
       technologies: ["React", "Node.js", "TailwindCSS", "Fuzzy Logic"],
       linkUrl: "https://github.com/alamjhonel/CodeAssess.git"
     },
     {
       title: "Boarding House Rental Management System",
       description: "A management system for boarding house owners and tenants, streamlining room rentals, payments, and tenant records with an easy-to-use dashboard.",
-      imageUrl: "public/images/rental.jpg",
+      imageUrl: "/images/rental.jpg",
       technologies: ["PHP", "Laravel", "Bootstrap"],
       linkUrl: "https://github.com/jhonelalam/BHRMS.git"
     }
