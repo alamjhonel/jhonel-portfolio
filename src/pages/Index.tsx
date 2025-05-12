@@ -84,8 +84,8 @@ const Index: React.FC = () => {
 
     // Trigger file download
     const link = document.createElement('a');
-    link.href = '/ALAMJHONEL_CVRESUME.pdf'; // Path relative to the public directory
-    link.download = 'Alam Jhonel_CV.pdf';
+    link.href = '/images/ALAMJHONEL_CVRESUME.pdf'; // Path relative to the public directory
+    link.download = 'AlamJhonel_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
