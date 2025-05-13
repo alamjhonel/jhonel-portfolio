@@ -109,7 +109,7 @@ const Index: React.FC = () => {
 
 
   return (
-    <div className="min-h-screen flex flex-col overflow-x-hidden">
+    <div className="min-h-screen flex flex-col">
       <MatrixBackground animationState={animationState} />
       <div className="scanline"></div>
       <NavigationBar />
